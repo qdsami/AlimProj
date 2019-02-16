@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.8.0)
+  - LTMorphingLabel (0.6.0)
+  - Spring (1.0.6)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - LTMorphingLabel (from `https://github.com/lexrus/LTMorphingLabel`, branch `master`)
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  LTMorphingLabel:
+    :branch: master
+    :git: https://github.com/lexrus/LTMorphingLabel
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  LTMorphingLabel:
+    :commit: efe9d385f65ca99b3038e66752061947613419cf
+    :git: https://github.com/lexrus/LTMorphingLabel
+  Spring:
+    :commit: fafd0b2e8d4d46405bd86fa7ba84bb7f73a20b13
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  LTMorphingLabel: c73ebfef9009c0a098546c29f566024442d1a91e
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 068239a769825f56ddfd3bb533419715329d4e41
+
+COCOAPODS: 1.5.3
